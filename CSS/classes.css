@@ -1,0 +1,38 @@
+.main-bg{
+    background-image: url(../img/fundo-1.svg);
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.main-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+.section {
+    min-height: 100vh;
+}
+
+.white-bg{
+    background-image: var(--white-color);
+    background-size: cover;
+    background-position: center center;
+}
+.menu{
+    background-color: #fff;
+    position: fixed;
+    color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom:0.1rem solid rgb(206, 205, 205);
+}
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
