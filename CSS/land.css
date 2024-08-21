@@ -31,7 +31,7 @@ html{
 }
 
 .intro-1colum{
-    padding-top: 15rem;
+    padding-top: 10rem;
     padding-left: -30rem;
 }
 .intro-1colum h2 {
@@ -75,10 +75,10 @@ html{
     padding: 10rem;
 }
 .repository-content{
-    display: flex;
+    display: block;
     flex-flow: column wrap;
     justify-content: center;
-    height: 100vh;
+    max-height: 100vh;
     text-align: center;
 
 }
