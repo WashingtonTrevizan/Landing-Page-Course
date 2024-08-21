@@ -6,7 +6,7 @@
 }
 
 .main-content{
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: var(--gap);
 }
@@ -35,4 +35,9 @@
     padding-top: 0;
     padding-bottom: 0;
 
+}
+
+.space-menu {
+    height: 45px;
+    
 }

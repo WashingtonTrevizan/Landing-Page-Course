@@ -7,47 +7,57 @@
 /*   font-family: "Ubuntu", sans-serif;   */
 
 
-.menu ul{
-
-    list-style: none;
-    display: flex;
-
+.intro{
+    min-height: auto;
 }
 
-.menu ul li {
-
-    align-items: center;
-}
-.menu ul li a{
-    display: block;
-    list-style: none;
-    padding: 1rem;
-    font-size: 1.8rem;
+.intro-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: var(--gap);
+    justify-items: center;
+    height: 987px;
     position: relative;
-    color: black;
+    margin-top: -15px;
+ 
+} 
 
-
+.intro-1colum .intro-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
 }
 
-.menu h1 a{
-    color: inherit;
+.intro-1colum{
+    padding-top: 15rem;
+    padding-left: -30rem;
+}
+.intro-1colum h2 {
+    font-size: 8rem;
 }
 
-.menu ul li a::after{
-    content: '';
-    position: absolute;
-    bottom: 0.5rem;
-    left: 25%;
-    width: 0%;
-    height: 0.2rem;
-    background: crimson;
-    transition: all 300ms ease-in-out;
-}
+.intro-1colum p {
+    font-size: 2rem;
+    line-height: 28px;
+    max-width: 30rem;
 
-.menu ul li a:hover::after{
-    width: 50%;
 }
+/* .intro-img{ 
+    background-image: url(../img/intro.img.svg);
+    display: flex;
+    background-position: center center;
+    width: 100rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 10rem;
+}*/
 
-.white{
-    background-color: white;
+.intro-img{ 
+    max-width: 100%;
+    height: auto;
+    padding-top: 15rem;
+}
+.intro-img img {
+    max-width:100%;
+    height: 60rem;
 }
