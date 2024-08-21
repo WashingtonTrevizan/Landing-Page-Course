@@ -35,13 +35,13 @@ html{
     padding-left: -30rem;
 }
 .intro-1colum h2 {
-    font-size: 8rem;
+    font-size: 10rem;
 }
 
 .intro-1colum p {
     font-size: 2rem;
-    line-height: 28px;
-    max-width: 30rem;
+    line-height:28px;
+    max-width: 55rem;
 
 }
 /* .intro-img{ 
@@ -82,4 +82,41 @@ html{
     text-align: center;
 
 }
+.terceira-page{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
 
+.terceira-page h2 {
+    font-size: 5rem;
+    max-width: 80rem;
+}
+.terceira-page p{
+    margin-left: 1rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    counter-reset: grid-counter;
+
+}
+.grid h3{
+    font-size: 3rem;
+    gap: (--gap);
+    padding-bottom: 1rem;
+    margin-left: 3rem;
+    padding-left: 3rem;
+    position: relative;
+}
+
+.grid h3::before {
+    counter-increment: grid-counter;
+    content: counter(grid-counter);
+    font-style: italic;
+    position: absolute;
+    margin-left: -6rem;
+    font-size: 8rem;
+    top: -3rem;
+    transform: rotate(5deg);
+}
