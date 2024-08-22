@@ -49,3 +49,20 @@ p{
     max-width: 80rem;
     font-size: 2rem;
 }
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table td, table th{
+    text-align: left;
+    padding: 3rem;
+    border: 0.1rem solid var(--gray-color);
+}
+tfoot td, table th{
+    background:var(--gray-color);
+}
+table caption{
+    text-align: left;
+    font-style: italic;
+    margin: 1rem;
+}
