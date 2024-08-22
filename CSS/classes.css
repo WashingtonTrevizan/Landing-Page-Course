@@ -14,12 +14,6 @@
     min-height: 100vh;
 }
 
-.white-bg{
-    background-image: var(--white-color);
-    background-size: cover;
-    background-position: center center;
-    color: black;
-}
 .menu{
     background-color: #fff;
     position: fixed;
@@ -39,6 +33,6 @@
 }
 
 .space-menu {
-    height: 45px;
+    min-height: 45px;
     
 }
