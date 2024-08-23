@@ -14,10 +14,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
     <aside class="menu">
         <div class="main-content menu-content">
             <h1><a href="#">LOGO</a></h1>
-                <nav>
+                <nav onclick="getElementById('close-menu').checked = false;">
                     <ul>
                         <li><a href="#intro">Intro</a></li>
                         <li><a href="#repository">repository</a></li>
@@ -42,7 +44,7 @@
     </section>
     <section id="repository" class="white-bg section">
         <div class="repository-content main-content">
-            <h2>Conheça Meu Primeiro Repositorio</h2>
+            <h2>MY</h2>
             <p>A development repository, often referred to as a "dev repo," is a crucial component in modern software development. It serves as a centralized location where developers can store, manage, and track changes to source code. Typically hosted on platforms such as GitHub, GitLab, or Bitbucket, these repositories not only facilitate collaboration among team members but also provide version control to manage the evolution of the codebase. By using branching strategies and pull requests, development teams can effectively handle multiple versions and feature implementations simultaneously, ensuring a more organized and controlled development process.</p>
             <p>Moreover, development repositories play a significant role in continuous integration and continuous deployment (CI/CD) pipelines. Integration with CI/CD tools allows for automated testing and deployment processes, ensuring that code changes are systematically tested and integrated into the main codebase. This automation helps to maintain high code quality and reduces the risk of introducing bugs into production environments. Additionally, it supports a more agile development cycle by enabling rapid feedback and iterative improvements based on test results.</p>
             <p>Finally, development repositories also serve as valuable documentation and knowledge repositories. They often include README files, contributing guidelines, and detailed commit messages that help new and existing developers understand the project's purpose, setup instructions, and coding standards. This documentation is essential for onboarding new team members and for maintaining clarity on project objectives and progress. By keeping this information up-to-date within the repository, teams can ensure continuity and coherence in the development process, even as team composition and project requirements evolve.</p>
@@ -184,5 +186,6 @@
     <footer id="footer" class="white-bg">
         <p><a  rel="nofollow" target="_blank" href="https://github.com/WashingtonTrevizan?tab=repositories">Feito com ♥ por Washington Trevizan</a></p>
     </footer>
+    <a class="back-top" href="#">➤</a>
 </body>
 </html>
