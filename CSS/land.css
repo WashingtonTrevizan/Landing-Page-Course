@@ -130,11 +130,12 @@ html{
     grid-template-columns: repeat(3, 1fr);
     counter-reset: grid-counter;
     grid-gap: 2rem;
+    justify-items: center;
 }
 
 .grid-gallery .gallery-img img{
-    max-height: 360px;
-    max-width: 360px;
+    max-height: 100%;
+    max-width: 100%;
 }
 .gallery-img{
     width: 100%;
